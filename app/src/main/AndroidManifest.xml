@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="piofal.mzkstg" >
+
+    <uses-sdk
+        android:minSdkVersion="10" />
+    <application
+        android:label="@string/app_name"
+        android:icon="@drawable/mzk3">
+        <activity
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:label="@string/app_name"
+            android:name=".Wybierz_linie"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Wybierz_przystanek"
+            android:screenOrientation="portrait" >
+        </activity>
+<!--        <activity
+            android:theme="@android:style/Theme.Dialog"
+            android:name=".ui.DialogCancelActivity" />
+-->
+    </application>
+</manifest>
